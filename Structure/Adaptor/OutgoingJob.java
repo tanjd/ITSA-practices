@@ -11,7 +11,6 @@ public class OutgoingJob { // Developer A
     // native object.
   }
 }
-
 // You are the developer
 
 // Steps:
@@ -19,7 +18,6 @@ public class OutgoingJob { // Developer A
 // b. Create concrete (adapter) class implementing the adapter interface.
 // c. Let the adapter compose the adaptee
 // d. Implement the logic to adapt the adaptee
-
 interface ClaimAdapterInterface {
   public void send(Claim claim);
 }
@@ -44,12 +42,12 @@ class CSystemService {
   } // some preocessing
 }
 
-public class Claim {
+class Claim {
   public String getItems() {
     return "";
-  };
+  }
 
   public int getAmount() {
     return 100;
-  };
+  }
 }
